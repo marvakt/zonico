@@ -57,7 +57,7 @@ function Contact() {
           </p>
           <h2 className="mt-3 text-4xl font-black text-slate-950 sm:text-5xl">Get in Touch</h2>
           <p className="mt-4 text-slate-600">
-            Contact us for software and IT solutions for your business
+            Let us help you choose the right software and IT setup
           </p>
         </div>
 

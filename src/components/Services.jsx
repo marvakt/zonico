@@ -11,7 +11,7 @@ function Services() {
         </p>
         <h2 className="mt-3 text-4xl font-black text-slate-950 sm:text-5xl">Our Services</h2>
         <p className="mt-4 text-slate-600">
-          Solutions designed to improve your business operations
+          Simple solutions to run your business better
         </p>
       </div>
 

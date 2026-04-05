@@ -24,7 +24,7 @@ function Works() {
           Our Works
         </h2>
         <p className="mt-4 text-slate-600">
-          Three service categories with the full related work shown on demand
+          Explore real projects from our core service categories
         </p>
       </div>
 
