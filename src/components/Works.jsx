@@ -1,6 +1,12 @@
 import { workCategories } from "../data/projects";
 
 function Works() {
+  const navigateToCategory = (event, slug) => {
+    event.preventDefault();
+    window.history.pushState({}, "", slug);
+    window.dispatchEvent(new PopStateEvent("popstate"));
+  };
+
   return (
     <section
       id="works"
@@ -72,6 +78,7 @@ function Works() {
 
                 <a
                   href={category.slug}
+                  onClick={(event) => navigateToCategory(event, category.slug)}
                   className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-slate-950 px-4 py-3 text-sm font-semibold text-white transition hover:bg-cyan-700"
                 >
                   Show More
